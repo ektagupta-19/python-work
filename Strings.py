@@ -211,3 +211,21 @@ print(max(Employee_data.values))
 
 
 
+
+
+
+s='aabupGradaab'.strip('a').strip('b').strip('a')
+print(s)
+# %%
+print(((500//7) % 5) ** 3)
+# %%
+D = {1:['Raj', 22], 2:['Simran', 21], 3:['Rahul', 40]}
+for val in D:
+     print(val)
+# %%
+single_word_list=[]
+paragraph="abc def gf"
+for sentence in paragraph:
+    for word in sentence.split():
+        single_word_list.append(word)
+print(single_word_list)
