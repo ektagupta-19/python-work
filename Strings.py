@@ -223,9 +223,6 @@ D = {1:['Raj', 22], 2:['Simran', 21], 3:['Rahul', 40]}
 for val in D:
      print(val)
 # %%
-single_word_list=[]
-paragraph="abc def gf"
-for sentence in paragraph:
-    for word in sentence.split():
-        single_word_list.append(word)
-print(single_word_list)
+print(list(range(10, 1, -1)))
+
+# %%
